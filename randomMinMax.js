@@ -5,11 +5,11 @@
 const randomMinMax = (min, max) => {
     if (typeof min !== "number" || typeof max !== "number") {
         throw "randomMinMax requires two numbers";
-    } else if (min > max) {
-        return Math.random() * (max - min) + min;
+    } else if (min < max) {
+        return Math.floor(Math.random() * (max - min) + min);
     } else {
         [min, max] = [max, min];
-        return Math.random() * (max - min) + min;
+        return Math.floor(Math.random() * (max - min) + min);
     }
 };
 
