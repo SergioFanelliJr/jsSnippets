@@ -2,7 +2,7 @@
 
 const choose = (array) => {
     if (!Array.isArray(array)) {
-        throw `The function "choose" needs an array. received ${array}`;
+        throw `The function "choose" needs an array. Got ${array}`;
     } else if (array.length === 0) {
         throw "function choose cant work with empty array";
     } else if (array.length === 1) {

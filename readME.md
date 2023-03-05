@@ -2,9 +2,10 @@
 
 Repo to store usefull Javascript snippets.
 
-It´s mostly for educational purposes (using to learn tests, etc), but feel free to use it.
+It´s mostly a place to store random code, but feel free to use it.
 
-Any feedback is welcome and appreciated.
+Any feedback or addition is welcome and appreciated.
+
 
 ---
 
@@ -17,12 +18,11 @@ Just let me know, the only way to improve is to know what can be improved.
 
 ## What´s in here?
 
+    Nothing yet :/
+
+./random
+
 -   _randomMinMax.js_: returns a random number between min (inclusive) and max (exclusive);
 
 -   _choose.js_: returns a random element from an array;
 
-### Tests
-
-    -   Each snippet have a "snippet.randominess.js", that test the distribution of random numbers;
-
-    -   There is a "snippet.test.js", that contains unitest for each snippet;

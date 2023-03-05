@@ -3,13 +3,7 @@
   "version": "0.0.1",
   "description": "Random JS snippets",
   "main": "jsSnippets.js",
-  "scripts": {
-    "test": "jest"
-  },
-  "jest":{
-    "verbose": true,
-    "collectCoverage": true
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/SergioFanelliJr/jsSnippets.git"
@@ -23,11 +17,5 @@
   "bugs": {
     "url": "https://github.com/SergioFanelliJr/jsSnippets/issues"
   },
-  "homepage": "https://github.com/SergioFanelliJr/jsSnippets#readme",
-  "devDependencies": {
-    "jest": "^29.3.1"
-  },
-  "dependencies": {
-    "@types/jest": "^29.2.3"
-  }
+  "homepage": "https://github.com/SergioFanelliJr/jsSnippets#readme"
 }
