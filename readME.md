@@ -6,6 +6,8 @@ It´s mostly a place to store random code, but feel free to use it.
 
 Any feedback or addition is welcome and appreciated.
 
+---
+> **Do you know any amazing or interesting snippet? Any magical algorithm? Don't hesitate to send it to me! Don't worry about formatting or documentation, I'll take care of that for you! What's important is the novelty!**
 
 ---
 
@@ -26,3 +28,4 @@ Just let me know, the only way to improve is to know what can be improved.
 
 -   _choose.js_: returns a random element from an array;
 
+-  _invertInt.js_: Invert the position of a integer number;

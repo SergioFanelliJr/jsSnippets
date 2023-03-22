@@ -1,5 +1,8 @@
-//This function receives an array of options and return one of then
-
+/**
+ * This function receives an array of options and return one of then
+ * @param {array} array - The array of options
+ * @returns {any} - One of the options
+ */
 const choose = (array) => {
     if (!Array.isArray(array)) {
         throw `The function "choose" needs an array. Got ${array}`;
@@ -11,4 +14,4 @@ const choose = (array) => {
         return array[Math.floor(Math.random() * array.length)];
     }
 };
-module.exports = choose;
+export default choose;
